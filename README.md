@@ -1,4 +1,3 @@
-
 # CareerPath AI – Smart Career Advisor for Students 🎓
 
 ## 📌 Project Overview
@@ -46,3 +45,71 @@
    ```bash
    git clone https://github.com/shoaibms27/CareerPath-AI.git
    cd CareerPath-AI
+
+2. **Set up environment variables:**
+   - Create a `.env` file in the root directory
+   - Add your Google Gemini API key:
+     ```bash
+     GOOGLE_API_KEY=your_api_key_here
+     ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the application:**
+   ```bash
+   streamlit run main.py
+   ```
+
+The app will open in your default web browser at `http://localhost:8501`
+
+---
+
+## 🔑 **Environment Variables**
+
+The following environment variables are required:
+
+| Variable | Description |
+|----------|-------------|
+| `GOOGLE_API_KEY` | Your Google Gemini API key |
+
+---
+
+## 🤝 **Contributing**
+
+We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/improvement`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add new feature'`)
+5. Push to the branch (`git push origin feature/improvement`)
+6. Create a Pull Request
+
+---
+
+## 📝 **License**
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👥 **Authors**
+
+- Mohammed Shoeb - [GitHub](https://github.com/shoaibms27)
+
+---
+
+## 🙏 **Acknowledgments**
+
+- Google for providing the Gemini Pro API
+- Streamlit for their amazing framework
+- All contributors who help improve this project
+
+---
+
+## 📞 **Support**
+
+If you have any questions or run into issues, please open an issue in the GitHub repository.
